@@ -56,6 +56,7 @@ python clinic2.py
 - Patient screen :
 <img src="PatientScreen.png" alt="Patient Screen" width="800"/>
 - Add Patient screen :
+
 <img src="addPatient.png" alt="Add patient" width="800"/>
 - Show patient's informations :
 <img src="ShowPatient.png" alt="Show patient" width="800"/>
