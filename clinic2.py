@@ -407,7 +407,7 @@ class AddPatientScreen(MDScreen):
         layout = GridLayout(cols=2, spacing=100, padding= 200)
         with self.canvas.before:
             window_width, window_height = Window.size
-            self.background_image = Image(source='flou4.png', allow_stretch=True, size=(window_width, window_height))
+            self.background_image = Image(source='img/flou4.png', allow_stretch=True, size=(window_width, window_height))
 
 
         first_name = BoxLayout(orientation='vertical', spacing=5)
@@ -645,7 +645,7 @@ class AddEmployeeScreen(MDScreen):
         
         with self.canvas.before:
             window_width, window_height = Window.size
-            self.background_image = Image(source='flou4.png', allow_stretch=True, size=(window_width, window_height))
+            self.background_image = Image(source='img/flou4.png', allow_stretch=True, size=(window_width, window_height))
 
 
         first_name = BoxLayout(orientation='vertical', spacing=5)
@@ -899,7 +899,7 @@ class AddAppointmentScreen(MDScreen):
 
         with self.canvas.before:
             window_width, window_height = Window.size
-            self.background_image = Image(source='flou4.png', allow_stretch=True, size=(window_width, window_height))
+            self.background_image = Image(source='img/flou4.png', allow_stretch=True, size=(window_width, window_height))
 
 
         select_buttons_column = BoxLayout(orientation='vertical', spacing=50)
@@ -1083,7 +1083,7 @@ class RoomScreen(Screen):
         table_layout.md_bg_color = "#AFC8CB"
         with self.canvas.before:
             window_width, window_height = Window.size
-            self.background_image = Image(source='flou4.png', allow_stretch=True, size=(window_width, window_height))
+            self.background_image = Image(source='img/flou4.png', allow_stretch=True, size=(window_width, window_height))
 
         table_layout.add_widget(MDLabel(text="Room ID", size_hint_x=1, width=dp(100), font_style="H6"))
         table_layout.add_widget(MDLabel(text="State", size_hint_x=1, width=dp(100), font_style="H6"))
@@ -1142,7 +1142,7 @@ class MainScreen(MDScreen):
 
         with self.canvas.before:
             window_width, window_height = Window.size
-            self.background_image = Image(source='back.jpeg', allow_stretch=True, size=(window_width, window_height))  # Replace with your image path
+            self.background_image = Image(source='img/back.jpeg', allow_stretch=True, size=(window_width, window_height))  # Replace with your image path
 
 
     def update_background(self, instance, value):

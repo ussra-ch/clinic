@@ -18,33 +18,33 @@ Before running the Clinic Management App, ensure you have the following:
 
 ### Home Screen
 - Displays the clinic's menu and essential information.
-<img src="homeScreen.png" alt="Home Screen" width="800"/>
+<img src="img/homeScreen.png" alt="Home Screen" width="800"/>
 
 
 ### Patient Screen
 - Enables users to add, view, and delete patient information.
-<img src="PatientScreen.png" alt="Patient Screen" width="800"/>
+<img src="img/PatientScreen.png" alt="Patient Screen" width="800"/>
 - Provides a user-friendly interface for managing patient records.
     - Add Patient screen :
-<img src="addPatient.png" alt="Add patient" width="800"/>
+<img src="img/addPatient.png" alt="Add patient" width="800"/>
     - Show patient's informations :
-<img src="ShowPatient.png" alt="Show patient" width="800"/>
+<img src="img/ShowPatient.png" alt="Show patient" width="800"/>
 
 
 ### Employee Screen
 - Allows users to add, view, and delete employee information.
-<img src="EmployeeScreen.png" alt="Employee Screen" width="800"/>
+<img src="img/EmployeeScreen.png" alt="Employee Screen" width="800"/>
 - Provides similar functionality to the patient screen for managing employee records.
 
 ### Appointment Screen
 - Enables users to schedule appointments by selecting a patient, employee, room, and date.
-<img src="AppointmentScreen.png" alt="Show employee" width="800"/>
-<img src="addAppointment.png" alt="Show employee" width="800"/>
+<img src="img/AppointmentScreen.png" alt="Show employee" width="800"/>
+<img src="img/addAppointment.png" alt="Show employee" width="800"/>
 
 ### Room Screen
 - Provides functionality to view and manage the occupancy status of clinic rooms.
 - Allows users to toggle room states between empty and occupied by clicking on the corresponding buttons.
-<img src="RoomScreen.png" alt="Show employee" width="800"/>
+<img src="img/RoomScreen.png" alt="Show employee" width="800"/>
 
 
 ## Version History
