@@ -5,7 +5,7 @@ The Clinic Management App is a locally deployable application written in Python 
 
 ## Technologies Used
 - **Python:** Backend development.
-- SQLAlchemy ORM (Object-Relational Mapping): ORM.
+- **SQLAlchemy:** ORM (Object-Relational Mapping).
 - **Kivy&KivyMd:** User interface development.
 
 ## Prerequisites
