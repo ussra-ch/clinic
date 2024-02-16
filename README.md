@@ -48,7 +48,7 @@ python clinic2.py
 1. **Home Screen:**
 - Upon starting the application, navigate to the home screen.
 - Use the provided sections to manage patient and employee information.
-<img src="homeScreen.png" alt="Home Screen" width="400"/>
+<img src="homeScreen.png" alt="Home Screen"/>
 
 
 2. **Patient and Employee Screens:**
