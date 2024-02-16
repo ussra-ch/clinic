@@ -20,6 +20,7 @@ Before running the Clinic Management App, ensure you have the following:
 - Displays the clinic's menu and essential information.
 - Allows users to add, view, and delete patient and employee information.
 
+
 ### Patient Screen
 - Enables users to add, view, and delete patient information.
 - Provides a user-friendly interface for managing patient records.
