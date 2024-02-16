@@ -63,7 +63,7 @@ python clinic2.py
 - Employee screen :
 <img src="EmployeeScreen.png" alt="Employee Screen" width="800"/>
 - Show Employee's informations :
-<img src="showemployee.png" alt="Show employee" width="800"/>
+<img src="showEmployee.png" alt="Show employee" width="800"/>
 
 3. **Appointment Screen:**
 - Access the appointment screen to schedule new appointments.
