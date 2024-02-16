@@ -5,8 +5,8 @@ The Clinic Management App is a locally deployable application written in Python 
 
 ## Technologies Used
 - **Python:** Backend development.
-- **SQLAlchemy:** Database management.
-- **Kivy:** User interface development.
+- **SQLAlchemy ORM (Object-Relational Mapping): **ORM.
+- **Kivy&KivyMd:** User interface development.
 
 ## Prerequisites
 Before running the Clinic Management App, ensure you have the following:
@@ -18,63 +18,43 @@ Before running the Clinic Management App, ensure you have the following:
 
 ### Home Screen
 - Displays the clinic's menu and essential information.
-- Allows users to add, view, and delete patient and employee information.
+<img src="homeScreen.png" alt="Home Screen" width="800"/>
 
 
 ### Patient Screen
 - Enables users to add, view, and delete patient information.
+<img src="PatientScreen.png" alt="Patient Screen" width="800"/>
 - Provides a user-friendly interface for managing patient records.
+    - Add Patient screen :
+<img src="addPatient.png" alt="Add patient" width="800"/>
+    - Show patient's informations :
+<img src="ShowPatient.png" alt="Show patient" width="800"/>
+
 
 ### Employee Screen
 - Allows users to add, view, and delete employee information.
+<img src="EmployeeScreen.png" alt="Employee Screen" width="800"/>
 - Provides similar functionality to the patient screen for managing employee records.
 
 ### Appointment Screen
 - Enables users to schedule appointments by selecting a patient, employee, room, and date.
+<img src="AppointmentScreen.png" alt="Show employee" width="800"/>
+<img src="addAppointment.png" alt="Show employee" width="800"/>
 
 ### Room Screen
 - Provides functionality to view and manage the occupancy status of clinic rooms.
 - Allows users to toggle room states between empty and occupied by clicking on the corresponding buttons.
+<img src="RoomScreen.png" alt="Show employee" width="800"/>
+
 
 ## Installation
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: 
 git clone git@github.com:ussra-ch/clinic.git
-2. Navigate to the project directory:
+2. Navigate to the project directory: 
 cd clinic
-3. Start the application:
+3. Start the application: 
 python clinic2.py
 
-## Usage
-1. **Home Screen:**
-- Upon starting the application, navigate to the home screen.
-- Use the provided sections to manage patient and employee information.
-<img src="homeScreen.png" alt="Home Screen" width="800"/>
-
-
-2. **Patient and Employee Screens:**
-- Access the patient and employee screens to add, view, and delete patient and employee information, respectively.
-- Patient screen :
-<img src="PatientScreen.png" alt="Patient Screen" width="800"/>
-- Add Patient screen :
-
-<img src="addPatient.png" alt="Add patient" width="800"/>
-- Show patient's informations :
-<img src="ShowPatient.png" alt="Show patient" width="800"/>
-- Employee screen :
-<img src="EmployeeScreen.png" alt="Employee Screen" width="800"/>
-- Show Employee's informations :
-<img src="showEmployee.png" alt="Show employee" width="800"/>
-
-3. **Appointment Screen:**
-- Access the appointment screen to schedule new appointments.
-<img src="AppointmentScreen.png" alt="Show employee" width="800"/>
-- Select a patient, employee, room, and date to book an appointment.
-<img src="addAppointment.png" alt="Show employee" width="800"/>
-
-4. **Room Screen:**
-- View the current occupancy status of clinic rooms.
-- Toggle room states between empty and occupied by clicking on the corresponding buttons.
-<img src="RoomScreen.png" alt="Show employee" width="800"/>
 
 ## Version History
 - **Version 1.0:**
