@@ -1,4 +1,4 @@
-# Clinic Management App README
+# Hospital Management App
 
 ## Description
 The Clinic Management App is a locally deployable application written in Python using SQLAlchemy for database management and Kivy for the user interface. It is designed to streamline clinic operations, providing functionality for managing patients, employees, appointments, and room occupancy.
@@ -37,3 +37,34 @@ Before running the Clinic Management App, ensure you have the following:
 
 ## Installation
 1. Clone the repository to your local machine:
+git clone git@github.com:ussra-ch/clinic.git
+2. Navigate to the project directory:
+cd clinic
+3. Start the application:
+python clinic2.py
+
+## Usage
+1. **Home Screen:**
+- Upon starting the application, navigate to the home screen.
+- Use the provided sections to manage patient and employee information.
+![Home Screen](homeScreen)
+
+
+2. **Patient and Employee Screens:**
+- Access the patient and employee screens to add, view, and delete patient and employee information, respectively.
+- Patient screen :
+![Patient screen](PatientScreen)
+- Add Patient screen :
+![add Patient screen](addPatient)
+
+3. **Appointment Screen:**
+- Access the appointment screen to schedule new appointments.
+- Select a patient, employee, room, and date to book an appointment.
+
+4. **Room Screen:**
+- View the current occupancy status of clinic rooms.
+- Toggle room states between empty and occupied by clicking on the corresponding buttons.
+
+## Version History
+- **Version 1.0:**
+- Initial release with basic functionality.
