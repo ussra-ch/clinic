@@ -47,15 +47,6 @@ Before running the Clinic Management App, ensure you have the following:
 <img src="RoomScreen.png" alt="Show employee" width="800"/>
 
 
-## Installation
-1. Clone the repository to your local machine: 
-git clone git@github.com:ussra-ch/clinic.git
-2. Navigate to the project directory: 
-cd clinic
-3. Start the application: 
-python clinic2.py
-
-
 ## Version History
 - **Version 1.0:**
 - Initial release with basic functionality.
